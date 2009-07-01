@@ -1,3 +1,9 @@
+upstream fcgiwrap {
+	server 0.0.0.0:9010;
+	server 0.0.0.0:9011;
+}
+
+
 server {
         listen 207.192.74.39:80;
         server_name eliotshepard.com www.eliotshepard.com;
@@ -21,7 +27,8 @@ server {
 
 	location ~ ^/site\.rb$ {
 		gzip off;
-		fastcgi_pass  unix:/tmp/cgi.sock;
+		#fastcgi_pass  unix:/tmp/cgi.sock;
+		fastcgi_pass fcgiwrap;
 		fastcgi_param SCRIPT_FILENAME /var/www/users/eshepard/eliotshepard$fastcgi_script_name;
 		fastcgi_param SCRIPT_NAME $fastcgi_script_name;
 		fastcgi_param DOCUMENT_ROOT /var/www/users/eshepard/eliotshepard;
