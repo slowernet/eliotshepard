@@ -1,8 +1,3 @@
-upstream fcgiwrap {
-	server 0.0.0.0:9010;
-	server 0.0.0.0:9011;
-}
-
 server {
         listen 207.192.74.39:80;
         server_name eliotshepard.com www.eliotshepard.com;
