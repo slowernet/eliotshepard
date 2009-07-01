@@ -1,0 +1,10 @@
+AddHandler cgi-script .rb
+Options +ExecCGI -Indexes
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^set/([^/]+) site.rb?t=set&s=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ site.rb?t=$1 [L]
