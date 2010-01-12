@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
 
-# deploy
-# rsync . -vru eshepard@slower.net:www/subdomains/eliotshepard.com/
-
 require 'erb'
 require 'cgi'
 

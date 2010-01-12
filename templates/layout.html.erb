@@ -12,18 +12,6 @@
 		<script type="text/javascript" src="http://eliotshepard.lg1x8zmax.simplecdn.net/javascripts/Garamond_Premiere_Pro_400.font.js"></script>
 		<script type="text/javascript">Cufon.replace('#header a,h2');</script>
 
-		<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-7760704-3']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script');
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			ga.setAttribute('async', 'true');
-			document.documentElement.firstChild.appendChild(ga);
-		})();
-		</script>
 	</head>
 	<body>
 		<div id="header">
@@ -45,15 +33,28 @@
 
 		<script type="text/javascript">Cufon.now(); </script>
 
-		<div id="sitemeter">			
-			<script type="text/javascript">
+		<div id="sitemeter"></div>		
+		<script type="text/javascript">
+		var ga = document.createElement('script');
+		ga.src = 'http://s24.sitemeter.com/js/counter.js?site=s24eliotshepard';
+		document.getElementById('sitemeter').appendChild(ga);
+		</script>
+		<noscript>
+			<a href="http://s24.sitemeter.com/stats.asp?site=s24eliotshepard" target="_top"><img src="http://s24.sitemeter.com/meter.asp?site=s24eliotshepard" alt="Site Meter" border="0"/></a>
+		</noscript>
+		
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-7760704-3']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
 			var ga = document.createElement('script');
-			ga.src = 'http://s24.sitemeter.com/js/counter.js?site=s24eliotshepard';
-			document.getElementById('sitemeter').appendChild(ga);
-			</script>
-			<noscript>
-				<a href="http://s24.sitemeter.com/stats.asp?site=s24eliotshepard" target="_top"><img src="http://s24.sitemeter.com/meter.asp?site=s24eliotshepard" alt="Site Meter" border="0"/></a>
-			</noscript>
-		</div>
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			ga.setAttribute('async', 'true');
+			document.documentElement.firstChild.appendChild(ga);
+		})();
+		</script>
+
 	</body>
 </html>
