@@ -11,7 +11,7 @@ template_path = basedir + '/templates/' + (cgi['t'].empty? ? 'index' : cgi['t'])
 
 if (File.exists?(template_path))
 	unless cgi['s'].empty?
-		set = Dir.new(basedir + "/sets/#{cgi['s']}").reject { |v| v == '.' || v == '..' }.sort.map { |x| "<img src='http://eliotshepard.lg1x8zmax.simplecdn.net/sets/#{cgi['s']}/#{x}' />" }.join
+		set = Dir.new(basedir + "/sets/#{cgi['s']}").reject { |v| v == '.' || v == '..' }.sort.map { |x| "<img src='/sets/#{cgi['s']}/#{x}' />" }.join
 	end
 	template = ERB.new(File.read(template_path)).result
 else
