@@ -42,6 +42,7 @@ ul.margin-right li {
 
 #header a,
 h2 {
+	visibility: hidden;
 	font-family: 'Cardo', Georgia, serif;
 	font-weight: normal;
 }
