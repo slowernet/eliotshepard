@@ -40,19 +40,22 @@ ul.margin-right li {
 	margin-right: 22px;
 }
 
+#header a,
+h2 {
+	font-family: 'Cardo', Georgia, serif;
+	font-weight: normal;
+}
+
 .wf-loading #header a,
 .wf-loading h2 {
-	font-family: 'IM Fell Double Pica', Georgia, serif;
-	visibility: hidden;
-	font-weight: normal;
+	visibility: hidden !important;
 }
 
 .wf-inactive #header a, 
 .wf-inactive h2, 
 .wf-active #header a, 
 .wf-active h2 {
-	font-family: 'IM Fell Double Pica', Georgia, serif;
-	visibility: visible;
+	visibility: visible !important;
 }
 
 /**************************/
