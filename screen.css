@@ -40,6 +40,10 @@ ul.margin-right li {
 	margin-right: 22px;
 }
 
+#header a, h2 {
+	font-family: 'IM Fell Double Pica';
+}
+
 /**************************/
 
 #header {
