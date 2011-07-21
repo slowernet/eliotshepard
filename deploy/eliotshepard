@@ -1,11 +1,11 @@
 server {
         listen 207.192.74.39:80;
-        server_name eliotshepard.com www.eliotshepard.com;
+	server_name eliotshepard.com www.eliotshepard.com;	# thisexists.com www.thisexists.com;
         root /home/eshepard/www/eliotshepard;
 
         location ~* \.(jpg|css|js)$ {
-                expires 7d;
-				add_header    Cache-Control  public;
+		expires max;
+		add_header    Cache-Control  public;
         }
 
 	if ($host ~* www\.(.*)) {
