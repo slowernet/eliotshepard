@@ -13,6 +13,7 @@ a:hover {
 }
 
 body {
+	font-family: 'Source Sans Pro';
 }
 
 ul {
@@ -41,9 +42,9 @@ ul.margin-right li {
 
 #header a,
 h2 {
-	font-family: 'Varela Round', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 .wf-loading #header a,
@@ -124,6 +125,7 @@ ul.gallery-list li {
 	overflow: auto;
 	white-space : nowrap;
 	padding-bottom: 1em;
+	-webkit-overflow-scrolling: touch;
 }
 
 #body .set img {
@@ -132,4 +134,20 @@ ul.gallery-list li {
 
 #sitemeter img {
 	visibility: hidden;
+}
+
+@-webkit-keyframes rock {
+    0%   { -webkit-transform: rotate(21deg) }
+    50% { -webkit-transform: rotate(16deg) }
+	100%   { -webkit-transform: rotate(21deg) }
+}
+.new.badge {
+	-webkit-animation: rock 0.16s 6 ease, rock 0.16s 8 ease; 
+	-webkit-animation-delay: 2s, 6s;
+	-webkit-transform: rotate(21deg);
+	position: absolute;
+	top: -15px; 
+	right: -18px; 
+	height: 100px; 
+	width: 100px;
 }

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Eliot Shepard</title>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+
+		<link href="/screen.css?12" media="all" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Varela+Round&v2' rel='stylesheet' type='text/css'> -->
+
+		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+		<meta name="verify-v1" content="Y1DvOrv9Tas4BrZx5qHOoDEySCN01UsOz6aO3wTx3Qw=" />
+
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/script.js/1.3/script.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$script([
+				"http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js",
+				"http://platform.twitter.com/widgets.js"
+			], function() {
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<a href="/" id="homelink">Eliot Shepard</a>
+<img src="http://metrics.slower.net/pixel?_t=eliotshepard&_z=-04:00" height="1" width="1" border="0">
+
+			<ul id="site-menu">
+				<li>
+					<ul class="unstacked margin-left">
+						<li><a href="http://twitter.com/slowernet" class="twitter-follow-button" data-show-count="false">Follow @slowernet</a></li>
+						<li><a href="/">Photographs</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/cv">CV</a></li>
+						<li><a href="http://eliotshepard.tumblr.com/">Blog</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="body">
+			<%= template %>
+		</div>
+			<a href="http://s24.sitemeter.com/stats.asp?site=s24eliotshepard" target="_top"><img src="http://s24.sitemeter.com/meter.asp?site=s24eliotshepard" alt="Site Meter" border="0"/></a>
+		</div>
+
+		<div style="position: absolute; bottom: 10px; right: 10px; opacity: 0.8;">
+			<a href="https://mixpanel.com/f/partner"><img src="https://cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+		</div>
+		
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-7760704-3']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script');
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			ga.setAttribute('async', 'true');
+			document.documentElement.firstChild.appendChild(ga);
+		})();
+		</script>
+
+	</body>
+</html>
