@@ -142,8 +142,8 @@ ul.gallery-list li {
 	100%   { -webkit-transform: rotate(21deg) }
 }
 .new.badge {
-	-webkit-animation: rock 0.16s 6 ease, rock 0.16s 8 ease; 
-	-webkit-animation-delay: 2s, 6s;
+	-webkit-animation: rock 0.16s 2 ease, rock 0.16s 8 ease; 
+	-webkit-animation-delay: 2s, 5s;
 	-webkit-transform: rotate(21deg);
 	position: absolute;
 	top: -15px; 
