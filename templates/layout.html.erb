@@ -1,45 +1,58 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Eliot Shepard</title>
-		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<link href="/screen.css?12" media="all" rel="stylesheet" type="text/css" />
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-		<meta name="verify-v1" content="Y1DvOrv9Tas4BrZx5qHOoDEySCN01UsOz6aO3wTx3Qw=" />
-	</head>
-	<body>
-		<div id="header">
-			<a href="/" id="homelink">Eliot Shepard</a>
+	<link href="/screen.css?978" media="all" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
-			<ul id="site-menu">
-				<li>
-					<ul class="unstacked margin-left">
-						<li><a href="/">Photographs</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/cv">About</a></li>
-						<li><a href="http://eliotshepard.tumblr.com/">News</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		<div id="body">
-			<%= template %>
-		</div>
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+	<meta name="verify-v1" content="Y1DvOrv9Tas4BrZx5qHOoDEySCN01UsOz6aO3wTx3Qw=" />
 
-		<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-7760704-3']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script');
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			ga.setAttribute('async', 'true');
-			document.documentElement.firstChild.appendChild(ga);
-		})();
-		</script>
+	<meta property="og:site_name" content="Eliot Shepard">
+	<meta property="og:url" content="http://eliotshepard.com">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="photo">
+	<meta name="twitter:site" content="@slowernet">
+	<meta name="twitter:title" content="Eliot Shepard">
+	<meta name="twitter:image:src" content="http://eliotshepard.com/sets/portrait/XXX_0626.jpg">
+		
+	<title>Eliot Shepard</title>
+</head>
+<body>
+	<div id="header">
+		<a href="/" id="homelink">Eliot Shepard</a>
 
-	</body>
+		<ul id="site-menu">
+			<li>
+				<ul class="unstacked margin-left">
+					<li><a href="/">Photographs</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/cv">About</a></li>
+					<li><a href="http://eliotshepard.tumblr.com/">News</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<%= template %>
+	</div>
+
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7760704-3']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script');
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		ga.setAttribute('async', 'true');
+		document.documentElement.firstChild.appendChild(ga);
+	})();
+	</script>
+
+</body>
 </html>
