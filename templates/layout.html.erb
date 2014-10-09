@@ -1,41 +1,54 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Eliot Shepard</title>
-		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<link href="/screen.css?12" media="all" rel="stylesheet" type="text/css" />
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-		<meta name="verify-v1" content="Y1DvOrv9Tas4BrZx5qHOoDEySCN01UsOz6aO3wTx3Qw=" />
-	</head>
-	<body>
-		<div id="header">
-			<a href="/" id="homelink">Eliot Shepard</a>
+	<link href="/screen.css?978" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
-			<ul id="site-menu">
-				<li>
-					<ul class="unstacked margin-left">
-						<li><a href="/">Photographs</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/cv">About</a></li>
-						<li><a href="http://eliotshepard.tumblr.com/">News</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		<div id="body">
-			<%= template %>
-		</div>
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+	<meta name="verify-v1" content="Y1DvOrv9Tas4BrZx5qHOoDEySCN01UsOz6aO3wTx3Qw=" />
 
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-7760704-3', 'auto');
-		  ga('send', 'pageview');
-		</script>
-	</body>
+	<meta property="og:site_name" content="Eliot Shepard">
+	<meta property="og:url" content="http://eliotshepard.com">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="photo">
+	<meta name="twitter:site" content="@slowernet">
+	<meta name="twitter:title" content="Eliot Shepard">
+	<meta name="twitter:image:src" content="http://eliotshepard.com/sets/portrait/XXX_0626.jpg">
+		
+	<title>Eliot Shepard</title>
+</head>
+<body>
+	<div id="header">
+		<a href="/" id="homelink">Eliot Shepard</a>
+
+		<ul id="site-menu">
+			<li>
+				<ul class="unstacked margin-left">
+					<li><a href="/"><span class="desktop">Photographs</span><span class="phone">Photos</span></a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/cv">About</a></li>
+					<li><a href="http://eliotshepard.tumblr.com/">News</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<%= template %>
+	</div>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-7760704-3', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
 </html>
