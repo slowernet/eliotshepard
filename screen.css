@@ -150,3 +150,14 @@ ul.gallery-list li {
 	width: 100px;
 }
 
+.scroll-hint {
+	margin-top: 1em;
+	font-size: 2em;
+	font-family: Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 800px) { 
+	.scroll-hint {
+		display: none; 
+	}
+}
