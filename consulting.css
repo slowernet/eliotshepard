@@ -1,12 +1,13 @@
 #header { display: none; }
 #body { margin-top: 100px; }
 #body h1 { font-weight: 300; font-size: 29px; font-family: Roboto, "sans-serif"; margin-bottom: 1em; }
-#body p { line-height: 1.6em; font-family: Roboto, "sans-serif"; font-size: 17px; margin-bottom: 1em; text-rendering: geometricPrecision; font-weight: 400; }
+#body h2 { font-weight: 600; font-size: 17px; font-family: Roboto }
+#body li, #body p { line-height: 1.6em; font-family: Roboto, "sans-serif"; font-size: 17px; margin-bottom: 1em; text-rendering: geometricPrecision; font-weight: 400; }
 #body a { color: #34b; }
 img:hover { opacity: 1 !important; }
+#body li { font-family: Roboto; margin-bottom: initial; }
 ul { list-style-type: inherit; }
-h2 { font-weight: 600; }
-#body ul { font-size: 17px; }
+
 
 @media only screen and (max-width: 640px) {
 	#body { margin: 30px; }
