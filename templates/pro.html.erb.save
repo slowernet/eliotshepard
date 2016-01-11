@@ -1,0 +1,21 @@
+<style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+	#header { display: none; }
+
+	#body h1 { font-weight: 300; font-size: 31px; font-family: Roboto, "sans-serif";  }
+	#body p { font-family: Roboto, "sans-serif"; font-size: 17px; margin-bottom: 0.75em; text-rendering: geometricPrecision; font-weight: 400; }
+	#body a { color: #34b; }
+</style>
+
+<div style="line-height: 1.9em; max-width: 600px; margin: 0 auto;">
+	<h1>Eliot Shepard</h1>
+	<br>
+
+<p>Hello. I'm a software developer, team leader, and entrepreneur who's been creating successful online products for more than twenty years.</p>
+
+<p>I help companies define the products aligned with their strategic goals, hone their product development process, and refine the language they use to take product to market.</p>
+
+<p>Most recently I was a VP of Product for Vox Media, who acquired the network of media brands (Curbed, Eater, Racked) where I had been a partner and CTO since its founding in 2004. I've also worked for Reuters, Sony and the Smithsonian.</p>
+
+<p>If you're interested in working together, please <a href="mailto:eshepard@slower.net">send me an email</a>.</p>
+</div>
